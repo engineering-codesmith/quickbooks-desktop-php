@@ -1,5 +1,5 @@
 {
-    "name": "consolibyte/quickbooks",
+    "name": "engineering-codesmith/quickbooks-desktop-php",
     "type": "library",
     "description": "QuickBooks DevKit with support for Intuit Anywhere, Intuit Partner Platform, Web Connector, QuickBooks Merchant Services, and more.",
     "keywords": ["quickbooks","intuit","intuit anywhere","intuit partner platform","quickbooks web connector","qbxml","intuit data services","quickbooks merchant services","intuit merchant services","web connector"],
@@ -7,16 +7,27 @@
     "license": "EPL-1.0",
     "authors": [
         {
+            "name": "Raúl Arellano",
+            "email": "raul.arellano@codesmithdev.com",
+            "homepage": "https://codesmithdev.com/",
+            "role": "Developer"
+        },
+        {
+            "name": "Greg Peden",
+            "email": "greg.j.peden@gmail.com",
+            "homepage": "https://github.com/GregPeden",
+            "role": "Contributor"
+        },
+        {
             "name": "Keith Palmer",
             "email": "support@consolibyte.com",
             "homepage": "http://www.consolibyte.com/",
-            "role": "Developer"
+            "role": "Original Author"
         }
     ],
     "require": {
-        "php": "^5.0|^7.0|^8.0"
+        "php": "^7.4|^8.0"
     },
-
     "autoload": {
         "files": ["QuickBooks.php"]
      }
