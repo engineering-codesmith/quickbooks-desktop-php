@@ -772,6 +772,16 @@ class QuickBooks_QBXML_Object_Customer extends QuickBooks_QBXML_Object
 		return $this->get('PreferredDeliveryMethod');
 	}
 
+    public function setCreditLimit($value)
+    {
+        return $this->set('CreditLimit', $value);
+    }
+
+    public function getCreditLimit()
+    {
+        return $this->get('CreditLimit');
+    }
+
 	/**
 	 * Get the price level list id.
 	 *
