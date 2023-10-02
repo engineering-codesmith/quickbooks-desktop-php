@@ -792,6 +792,16 @@ class QuickBooks_QBXML_Object_Customer extends QuickBooks_QBXML_Object
 		return $this->get('PriceLevelRef ListID');
 	}
 
+    public function setCustomAttribute($name, $value)
+    {
+        return $this->set($name, $value);
+    }
+
+    public function getCustomAttribute($name)
+    {
+        return $this->get($name);
+    }
+
 	/**
 	 * Initializes the default name if one hasn't been set.
 	 * 
